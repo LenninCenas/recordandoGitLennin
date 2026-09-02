@@ -26,6 +26,10 @@ body {
   width: 100%;
 }
 
+.slide[hidden] {
+  display: none;
+}
+
 .controls {
   align-items: center;
   display: flex;

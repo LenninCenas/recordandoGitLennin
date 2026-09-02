@@ -21,3 +21,5 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'ArrowLeft') showSlide(currentSlide - 1);
   if (event.key === 'ArrowRight') showSlide(currentSlide + 1);
 });
+
+setInterval(() => showSlide(currentSlide + 1), 1000);
